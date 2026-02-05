@@ -25,7 +25,7 @@ Este projeto permite o gerenciamento de clientes através de uma API RESTful con
 1. Clone o repositório:
 
    ```bash
-   git clone <url-do-repositorio>
+   git clone <https://github.com/mariac1995/Projeto-Cadastro-de-Clientes.git>
    cd projeto_cadastro
    ```
 
