@@ -1,4 +1,4 @@
-# Projeto-Cadastro-de-Clientes
+# Projeto: Cadastro de Clientes
 
 Um sistema simples de cadastro de clientes desenvolvido com FastAPI no backend e uma interface web básica no frontend.
 
