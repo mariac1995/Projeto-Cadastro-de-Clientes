@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Sistema de Clientes</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1>Cadastro de Clientes</h1>
+
+    <form onsubmit="salvarCliente(event)">
+
+      <input id="nome" type="text" placeholder="Nome" required>
+
+      <input id="email" type="email" placeholder="E-mail" required>
+
+      <input id="telefone" type="tel" placeholder="Telefone" required>
+
+      <button id="btnSalvar">Cadastrar</button>
+
+    </form>
+
+
+    <ul id="lista"></ul>
+
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
