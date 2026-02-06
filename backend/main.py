@@ -26,8 +26,6 @@ app.add_middleware(
 def home():
     return {"mensagem": "API funcionando!"}
 
-
-# Listar clientes
 @app.get("/clientes")
 def listar_clientes():
 
@@ -112,22 +110,4 @@ def deletar_cliente(id: int):
     return {"mensagem": "Cliente deletado com sucesso"}
 
 
-# # Deletar cliente pelo ID
-# @app.delete("/clientes/{id}")
-# def deletar_cliente(id: int):
 
-#     conn = get_connection()
-#     cursor = conn.cursor()
-
-#     sql = "DELETE FROM clientes WHERE id = %s"
-
-#     cursor.execute(sql, (id,))
-
-#     conn.commit()
-
-#     linhas_afetadas = cursor.rowcount
-
-#     conn.close()
-
-#     if linhas_afetadas == 0:
-#         return {"erro": "Cliente não encontrado"}
